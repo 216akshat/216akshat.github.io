@@ -53,14 +53,7 @@ body {
   border-radius: 50%;
   object-fit: cover;
 }
-.profile-icon{
  
-  border-radius: 30%;  /* this makes it a perfect circle */
-  object-fit: cover;   /* ensures the image fills the shape */
-  overflow: hidden;
-  transform: scale(1.2);
-}
-
 .intro-text {
   text-align: center;
 }
@@ -98,7 +91,7 @@ body {
   color: white;
   padding: 10px 18px;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -153,7 +146,7 @@ section p {
 .profile-icon {
   width: 50px;
   height: 50px;
-  margin-bottom: 10px;
+ 
 }
 
 .visit-btn {
@@ -164,6 +157,10 @@ section p {
   padding: 8px 12px;
   border-radius: 5px;
   font-weight: bold;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 .visit-btn:hover {
@@ -212,7 +209,7 @@ section p {
   }
 
   .nav-btn {
-    font-size: 15px;
+    font-size: 13px;
     padding: 8px 12px;
     margin: 5px;
 
@@ -231,7 +228,9 @@ section p {
   border: none; /* Optional: remove border if not needed */
     
 }
-
+.name{
+    font-size: 20px;
+}
 
   .profile-icon {
     width: 50px;
@@ -246,4 +245,3 @@ section p {
     font-size: 14px;
   }
 }
-
